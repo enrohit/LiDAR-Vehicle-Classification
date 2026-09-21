@@ -20,7 +20,7 @@ class MinimalLiDARViewer:
         self.files = sorted(glob.glob(search_pattern))
 
         if not self.files:
-            print("❌ No files found.")
+            print(" No files found.")
             return
 
         # 3. Find the index of the selected file
